@@ -1,3 +1,24 @@
-.hello {
-    color: red;
+@font-face {
+    font-family: 'Roboto-Italic';
+    src: url(/fonts/Roboto/Roboto-Italic-VariableFont_wdth\,wght.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(/fonts/Roboto/Roboto-VariableFont_wdth\,wght.woff2) format('woff2');
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 86px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h2 {
+    font-weight: 500;
 }
