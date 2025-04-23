@@ -22,3 +22,19 @@ h1, h2 {
 h2 {
     font-weight: 500;
 }
+
+h3 {
+    font-weight: 700;
+}
+
+a {
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: #0d0d0d;
+    color: white;
+}
